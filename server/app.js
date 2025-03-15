@@ -10,7 +10,7 @@ const app = express();
 
 // Proper CORS configuration
 const corsOptions = {
-    origin: "http://localhost:5173", // Change this to your frontend URL
+    origin: "birthday-wish-project-react.vercel.app", // Change this to your frontend URL
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // Allows cookies if needed
