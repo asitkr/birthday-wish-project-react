@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&display=swap");
+@import "tailwindcss";
+
+
+@theme {
+    --font-display: "Karla", "Quicksand";
+    --bg-dark-theme: #8B5E3C;
+    --bg-light-theme: #FFC0CB;
+    --color-primary-text: #901000;
+    --color-light-border: #FFC0CB;
+    --color-button-background: #FF0000;
+}
+
+@keyframes jump {
+    15% { border-bottom-right-radius: 3px; }
+    25% { transform: translateY(9px) rotate(22.5deg); }
+    50% { transform: translateY(18px) scale(1, .9) rotate(45deg); border-bottom-right-radius: 40px; }
+    75% { transform: translateY(9px) rotate(67.5deg); }
+    100% { transform: translateY(0) rotate(90deg); }
+  }
+  
+  @keyframes shadow {
+    0%, 100% { transform: scale(1, 1); }
+    50% { transform: scale(1.2, 1); }
+  }
+  
+  /* Add animations to Tailwind */
+  .animate-jump {
+    animation: jump 0.5s linear infinite;
+  }
+  
+  .animate-shadow {
+    animation: shadow 0.5s linear infinite;
+  }
+  
