@@ -1,6 +1,6 @@
 import { lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
-import WithLayout from "./withLayout"; // Ensure the correct import path
+import WithLayout from "./WithLayout"; // Ensure the correct import path
 
 // Lazy-loaded pages
 const Home = lazy(() => import("./pages/Home"));
