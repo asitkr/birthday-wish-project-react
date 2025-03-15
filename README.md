@@ -22,10 +22,15 @@ Clone the repo:
 
    npm install
 
+### Environment Variables 🌍  
+Create a `.env` file in the root directory and add:  
+
+```ini
 JWT_SECRET_ACCESS_TOKEN_KEY=your-secret-key
 JWT_SECRET_REFRESH_TOKEN_KEY=your-refresh-key
 SMTP_EMAIL=your-email@gmail.com
 SMTP_PASSWORD=your-app-password
+
 
 
 npm start
