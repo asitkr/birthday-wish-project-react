@@ -19,3 +19,14 @@
    ```bash
    git clone https://github.com/your-repo.git
    cd your-project
+
+   npm install
+
+JWT_SECRET_ACCESS_TOKEN_KEY=your-secret-key
+JWT_SECRET_REFRESH_TOKEN_KEY=your-refresh-key
+SMTP_EMAIL=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
+
+
+npm start
+
